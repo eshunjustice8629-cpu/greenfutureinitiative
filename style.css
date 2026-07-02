@@ -114,7 +114,7 @@ button{
     background:#2e7d32;
     color:white;
     padding:14px 30px;
-    border-radius: 30px;
+    border-radius: 7px;
     cursor:pointer;
     transition: 0.3s;
     text-decoration: none;
@@ -321,7 +321,6 @@ display: flex;
 flex-wrap: wrap;
 justify-content: center;
 gap:20px;
-
 }
 
 .card{
@@ -347,7 +346,7 @@ transition:.3s;
     width: 100%;
     height:250px;
     object-fit: cover;
-    border-radius: 0px;
+    border-radius: 10px;
     object-position: cover;
 }
 hr{
@@ -526,6 +525,7 @@ margin-top:40px;
         gap:10px;
     }
 
+    
     header{
 background:#1b5e20;
 color:white;
@@ -534,7 +534,7 @@ position: sticky;
 top: 0;
 }
     h1{
-        font-size: 28px;
+        font-size: 25px;
     }
 
 nav ul{
@@ -546,11 +546,12 @@ align-items:center;
 padding:50px 15px;
 }
 .impact{
-    padding: 20px 10px;
     text-align: center;
     background: #f9f9f9;
      box-shadow:0 4px 10px rgba(0,0,0,0.1);
+     width: 95%;
 }
+
 
 .impact h2{
     color: #1b5e20;
